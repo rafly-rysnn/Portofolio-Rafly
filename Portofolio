@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio | Moch Rafli Nuryasin</title>
+  <style>
+    body{
+      margin:0;
+      font-family:'Segoe UI', Tahoma, sans-serif;
+      background:#f1f5f9;
+      color:#0f172a;
+      line-height:1.7;
+    }
+    header{
+      background:linear-gradient(135deg,#1e3a8a,#2563eb);
+      color:white;
+      padding:90px 20px 70px;
+      text-align:center;
+    }
+    header h1{margin:0;font-size:2.8rem;letter-spacing:1px;}
+    header h3{margin:15px 0 10px;font-weight:400;opacity:0.95;}
+    header p{max-width:800px;margin:20px auto 0;opacity:0.9;}
+    section{padding:70px 20px;max-width:1100px;margin:auto;}
+    h2{
+      color:#1e40af;
+      margin-bottom:35px;
+      position:relative;
+    }
+    h2::after{
+      content:'';
+      width:60px;
+      height:4px;
+      background:#2563eb;
+      position:absolute;
+      bottom:-10px;
+      left:0;
+      border-radius:2px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+    }
+    .card{
+      background:white;
+      padding:25px;
+      border-radius:16px;
+      box-shadow:0 15px 35px rgba(0,0,0,0.08);
+    }
+    .card h3{margin-top:0;color:#1e293b;}
+    .tag{
+      display:inline-block;
+      background:#e0e7ff;
+      color:#1e40af;
+      padding:6px 12px;
+      border-radius:999px;
+      font-size:0.8rem;
+      margin:4px 4px 0 0;
+    }
+    footer{
+      background:#020617;
+      color:#c7d2fe;
+      text-align:center;
+      padding:40px 20px;
+    }
+    footer a{color:#93c5fd;text-decoration:none;margin:0 12px;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MOCH RAFLI NURYASIN</h1>
+  <h3>Digital Business Undergraduate Student</h3>
+  <p>Mahasiswa aktif Program Studi Bisnis Digital Institut Bisnis dan Informatika Kesatuan. Memiliki ketertarikan pada komunikasi strategis, kepemimpinan, dan pengembangan bisnis berbasis digital serta berpengalaman dalam organisasi, event, dan proyek sosial.</p>
+</header>
+
+<section>
+  <h2>Profil Singkat</h2>
+  <div class="card">
+    <p>Mahasiswa Bisnis Digital dengan latar belakang Akuntansi dan Keuangan Lembaga. Berpengalaman memimpin organisasi, mengelola proyek sosial, serta berpartisipasi dalam kompetisi nasional hingga internasional. Terbiasa bekerja kolaboratif, memiliki kemampuan public speaking, manajemen organisasi, dan membangun jejaring profesional. Memiliki visi menjadi profesional muda yang berintegritas, adaptif, dan berdampak bagi bisnis serta komunitas.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Pendidikan</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Institut Bisnis dan Informatika Kesatuan</h3>
+      <p><strong>Program Studi:</strong> Bisnis Digital</p>
+      <p>2024 – Sekarang</p>
+    </div>
+    <div class="card">
+      <h3>SMKS Pembangunan Bogor</h3>
+      <p><strong>Jurusan:</strong> Akuntansi dan Keuangan Lembaga</p>
+      <p>Lulus 2024</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Pengalaman Kerja</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>CV Papazka Wedding – Crew Wedding Organizer</h3>
+      <p>2023 – Sekarang | Bogor</p>
+      <p>Mengelola persiapan teknis acara, mengatur alur prosesi, serta menangani kendala operasional di lapangan untuk memastikan kualitas acara.</p>
+    </div>
+    <div class="card">
+      <h3>Arjuna Event – Team Leader (Runner)</h3>
+      <p>2025 | Depok</p>
+      <p>Mengoordinasikan tim lapangan, pembagian tugas, dan kebutuhan operasional dalam lingkungan kerja event yang dinamis.</p>
+    </div>
+    <div class="card">
+      <h3>PT Bank Rakyat Indonesia (Persero), Tbk</h3>
+      <p>Staff Administrasi (Magang) | 2022</p>
+      <p>Mendukung administrasi perbankan, pelayanan nasabah, pengarsipan, serta memahami alur kerja dan kepatuhan perbankan.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Organisasi & Kepemimpinan</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Forum Pemuda Enam Berdedikasi</h3>
+      <p>Wakil Ketua Umum (2025 – 2028)</p>
+      <span class="tag">Kepemimpinan</span><span class="tag">Pemberdayaan Pemuda</span>
+    </div>
+    <div class="card">
+      <h3>Himpunan Mahasiswa Vokasi IBIK</h3>
+      <p>Anggota Biro Pendidikan – Divisi Potensi Mahasiswa</p>
+      <span class="tag">Pendidikan</span><span class="tag">Pengembangan Mahasiswa</span>
+    </div>
+    <div class="card">
+      <h3>OSIS SMKS Pembangunan Bogor</h3>
+      <p>Ketua (2022 – 2023)</p>
+      <span class="tag">Manajemen Organisasi</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Prestasi & Penghargaan</h2>
+  <div class="grid">
+    <div class="card">Duta Literasi Keuangan Terbaik Provinsi Jawa Barat – OJK (2025)</div>
+    <div class="card">Duta Generasi Berencana Provinsi Jawa Barat – BKKBN (2024)</div>
+    <div class="card">Juara Utama Kompetisi Mading Nasional – Kompas (2023)</div>
+    <div class="card">Juara Umum LKBB Tingkat Nasional (2023)</div>
+  </div>
+</section>
+
+<section>
+  <h2>Keterampilan</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Soft Skills</h3>
+      <p>Public Speaking, Kepemimpinan, Manajemen Organisasi, Kerja Tim, Networking</p>
+    </div>
+    <div class="card">
+      <h3>Software</h3>
+      <p>Microsoft Office, Microsoft Excel, Canva, Google Workspace</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Kontak</h2>
+  <div class="card">
+    <p><strong>📍 Lokasi:</strong> Bogor, Indonesia</p>
+    <p><strong>📞 Telepon:</strong> 0812-9498-1703</p>
+    <p><strong>✉️ Email:</strong> mhmmdrafli0102@gmail.com</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Moch Rafli Nuryasin | Personal Portfolio</p>
+  <a href="#">LinkedIn</a> | <a href="#">Instagram</a>
+</footer>
+
+</body>
+</html>
